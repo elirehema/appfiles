@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 1.5.64
 # min_api: 16
-# pg_map_id: bad09bd
+# pg_map_id: ae28ce2
 android.support.v4.app.RemoteActionCompatParcelizer -> android.support.v4.app.RemoteActionCompatParcelizer:
     11:11:void <init>() -> <init>
     13:13:androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel) -> read
@@ -647,10 +647,10 @@ io.flutter.embedding.android.FlutterActivity -> io.flutter.embedding.android.e:
     941:941:io.flutter.plugin.platform.PlatformPlugin providePlatformPlugin(android.app.Activity,io.flutter.embedding.engine.FlutterEngine) -> a
     1047:1047:void onFlutterSurfaceViewCreated(io.flutter.embedding.android.FlutterSurfaceView) -> a
     1052:1052:void onFlutterTextureViewCreated(io.flutter.embedding.android.FlutterTextureView) -> a
-    1060:1063:void onFlutterUiDisplayed() -> a
-    1089:1093:boolean stillAttachedForEvent(java.lang.String) -> a
+    1063:1066:void onFlutterUiDisplayed() -> a
+    1092:1096:boolean stillAttachedForEvent(java.lang.String) -> a
     977:977:void cleanUpFlutterEngine(io.flutter.embedding.engine.FlutterEngine) -> b
-    1068:1068:void onFlutterUiNoLongerDisplayed() -> b
+    1071:1071:void onFlutterUiNoLongerDisplayed() -> b
     713:713:android.app.Activity getActivity() -> c
     724:724:androidx.lifecycle.Lifecycle getLifecycle() -> d
     701:701:android.content.Context getContext() -> e
@@ -678,10 +678,10 @@ io.flutter.embedding.android.FlutterActivity -> io.flutter.embedding.android.e:
     595:600:void onStop() -> onStop
     688:692:void onTrimMemory(int) -> onTrimMemory
     681:684:void onUserLeaveHint() -> onUserLeaveHint
-    1072:1079:boolean shouldRestoreAndSaveState() -> p
+    1075:1082:boolean shouldRestoreAndSaveState() -> p
     784:789:java.lang.String getDartEntrypointFunctionName() -> q
     492:496:io.flutter.embedding.android.SplashScreen provideSplashScreen() -> r
-    1085:1085:boolean popSystemNavigator() -> u
+    1088:1088:boolean popSystemNavigator() -> u
     899:902:io.flutter.embedding.android.FlutterActivityLaunchConfigs$BackgroundMode getBackgroundMode() -> v
     926:926:io.flutter.embedding.engine.FlutterEngine getFlutterEngine() -> w
     932:934:android.os.Bundle getMetaData() -> x
