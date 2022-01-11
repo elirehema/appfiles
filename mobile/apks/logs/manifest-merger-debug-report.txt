@@ -22,7 +22,7 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/runner/.gradle/caches/transfo
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7dece199a1d4f5f11d593e83da6764e1/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runner/.gradle/caches/transforms-2/files-2.1/5abde57ec3271bb3a9214a0f3e1068ad/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4f673da55c54b24c9c49d03a59a395b1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4eccc93faad7f821cbe874eaffb9ff4f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/runner/work/egsaving/egsaving/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/runner/work/egsaving/egsaving/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/runner/work/egsaving/egsaving/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -128,8 +128,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runne
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runner/.gradle/caches/transforms-2/files-2.1/5abde57ec3271bb3a9214a0f3e1068ad/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4f673da55c54b24c9c49d03a59a395b1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4f673da55c54b24c9c49d03a59a395b1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4eccc93faad7f821cbe874eaffb9ff4f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4eccc93faad7f821cbe874eaffb9ff4f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/runner/work/egsaving/egsaving/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/runner/work/egsaving/egsaving/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
