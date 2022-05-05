@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 1.5.64
 # min_api: 16
-# pg_map_id: ce6dfd8
+# pg_map_id: 23cb00f
 $r8$java8methods$utility$Boolean$hashCode$IZ -> a:
     1:1:int hashCode(boolean) -> a
 $r8$java8methods$utility$Float$hashCode$IF -> b:
@@ -277,22 +277,7 @@ androidx.collection.SimpleArrayMap -> d.b.d:
     653:661:boolean replace(java.lang.Object,java.lang.Object,java.lang.Object) -> replace
     668:668:int size() -> size
     762:787:java.lang.String toString() -> toString
-androidx.core.app.ActivityCompat -> androidx.core.app.a:
-    androidx.core.app.ActivityCompat$PermissionCompatDelegate sDelegate -> a
-    498:538:void requestPermissions(android.app.Activity,java.lang.String[],int) -> a
-androidx.core.app.ActivityCompat$1 -> androidx.core.app.a$a:
-    android.app.Activity val$activity -> e
-    int val$requestCode -> f
-    java.lang.String[] val$permissions -> d
-    519:519:void <init>(java.lang.String[],android.app.Activity,int) -> <init>
-    522:535:void run() -> run
-androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback -> androidx.core.app.a$b:
-    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
-androidx.core.app.ActivityCompat$PermissionCompatDelegate -> androidx.core.app.a$c:
-    boolean requestPermissions(android.app.Activity,java.lang.String[],int) -> a
-androidx.core.app.ActivityCompat$RequestPermissionsRequestCodeValidator -> androidx.core.app.a$d:
-    void validateRequestPermissionsRequestCode(int) -> a
-androidx.core.app.ComponentActivity -> androidx.core.app.b:
+androidx.core.app.ComponentActivity -> androidx.core.app.a:
 androidx.core.app.CoreComponentFactory -> androidx.core.app.CoreComponentFactory:
     39:39:void <init>() -> <init>
     80:86:java.lang.Object checkCompatWrapper(java.lang.Object) -> a
@@ -317,7 +302,6 @@ androidx.core.app.RemoteActionCompatParcelizer -> androidx.core.app.RemoteAction
     26:33:void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel) -> write
 androidx.core.content.ContextCompat -> d.c.a.a:
     159:162:void <clinit>() -> <clinit>
-    551:552:int checkSelfPermission(android.content.Context,java.lang.String) -> a
     684:687:java.util.concurrent.Executor getMainExecutor(android.content.Context) -> a
 androidx.core.content.ContextCompat$Api28Impl -> d.c.a.a$a:
     945:945:java.util.concurrent.Executor getMainExecutor(android.content.Context) -> a
@@ -439,7 +423,7 @@ androidx.lifecycle.LifecycleEventObserver -> androidx.lifecycle.f:
     void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event) -> a
 androidx.lifecycle.LifecycleObserver -> androidx.lifecycle.g:
 androidx.lifecycle.LifecycleOwner -> androidx.lifecycle.h:
-    androidx.lifecycle.Lifecycle getLifecycle() -> d
+    androidx.lifecycle.Lifecycle getLifecycle() -> c
 androidx.lifecycle.LifecycleRegistry -> androidx.lifecycle.i:
     androidx.lifecycle.Lifecycle$State mState -> b
     androidx.arch.core.internal.FastSafeIterableMap mObserverMap -> a
@@ -1176,8 +1160,8 @@ io.flutter.embedding.android.DrawableSplashScreen$DrawableSplashScreenView -> io
     121:123:void setSplashDrawable(android.graphics.drawable.Drawable,android.widget.ImageView$ScaleType) -> a
     116:117:void setSplashDrawable(android.graphics.drawable.Drawable) -> setSplashDrawable
 io.flutter.embedding.android.ExclusiveAppComponent -> io.flutter.embedding.android.d:
-    void detachFromFlutterEngine() -> e
-    java.lang.Object getAppComponent() -> f
+    void detachFromFlutterEngine() -> d
+    java.lang.Object getAppComponent() -> e
 io.flutter.embedding.android.FlutterActivity -> io.flutter.embedding.android.FlutterActivity:
     int FLUTTER_VIEW_ID -> f
     androidx.lifecycle.LifecycleRegistry lifecycle -> e
@@ -1197,9 +1181,9 @@ io.flutter.embedding.android.FlutterActivity -> io.flutter.embedding.android.Flu
     1143:1151:boolean stillAttachedForEvent(java.lang.String) -> a
     1021:1021:void cleanUpFlutterEngine(io.flutter.embedding.engine.FlutterEngine) -> b
     1115:1115:void onFlutterUiNoLongerDisplayed() -> b
-    747:747:android.app.Activity getActivity() -> c
-    758:758:androidx.lifecycle.Lifecycle getLifecycle() -> d
-    658:669:void detachFromFlutterEngine() -> e
+    758:758:androidx.lifecycle.Lifecycle getLifecycle() -> c
+    658:669:void detachFromFlutterEngine() -> d
+    747:747:android.app.Activity getActivity() -> e
     852:862:java.lang.String getInitialRoute() -> f
     769:769:io.flutter.embedding.engine.FlutterShellArgs getFlutterShellArgs() -> g
     735:735:android.content.Context getContext() -> getContext
@@ -1263,10 +1247,10 @@ io.flutter.embedding.android.FlutterActivityAndFragmentDelegate -> io.flutter.em
     444:459:java.lang.String maybeGetInitialRouteFromIntent(android.content.Intent) -> b
     590:604:void onSaveInstanceState(android.os.Bundle) -> b
     139:139:boolean isFlutterEngineFromHost() -> c
-    690:697:void onBackPressed() -> d
-    608:611:void detachFromFlutterEngine() -> e
-    67:67:java.lang.Object getAppComponent() -> f
-    205:207:android.app.Activity getAppComponent() -> f
+    608:611:void detachFromFlutterEngine() -> d
+    67:67:java.lang.Object getAppComponent() -> e
+    205:207:android.app.Activity getAppComponent() -> e
+    690:697:void onBackPressed() -> f
     578:587:void onDestroyView() -> g
     640:679:void onDetach() -> h
     547:550:void onPause() -> i
@@ -1299,9 +1283,9 @@ io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$Host -> io.flutt
     io.flutter.plugin.platform.PlatformPlugin providePlatformPlugin(android.app.Activity,io.flutter.embedding.engine.FlutterEngine) -> a
     void cleanUpFlutterEngine(io.flutter.embedding.engine.FlutterEngine) -> b
     void onFlutterUiNoLongerDisplayed() -> b
-    android.app.Activity getActivity() -> c
-    androidx.lifecycle.Lifecycle getLifecycle() -> d
-    void detachFromFlutterEngine() -> e
+    androidx.lifecycle.Lifecycle getLifecycle() -> c
+    void detachFromFlutterEngine() -> d
+    android.app.Activity getActivity() -> e
     java.lang.String getInitialRoute() -> f
     io.flutter.embedding.engine.FlutterShellArgs getFlutterShellArgs() -> g
     java.lang.String getAppBundlePath() -> h
@@ -1781,23 +1765,18 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry$DefaultFlutterAssets
     720:720:void <init>(io.flutter.embedding.engine.loader.FlutterLoader,io.flutter.embedding.engine.FlutterEngineConnectionRegistry$1) -> <init>
     723:725:void <init>(io.flutter.embedding.engine.loader.FlutterLoader) -> <init>
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivityPluginBinding -> io.flutter.embedding.engine.d$c:
-    java.util.Set onActivityResultListeners -> c
-    java.util.Set onNewIntentListeners -> d
-    java.util.Set onUserLeaveHintListeners -> e
-    java.util.Set onSaveInstanceStateListeners -> f
-    java.util.Set onRequestPermissionsResultListeners -> b
-    android.app.Activity activity -> a
+    java.util.Set onNewIntentListeners -> c
+    java.util.Set onUserLeaveHintListeners -> d
+    java.util.Set onSaveInstanceStateListeners -> e
+    java.util.Set onRequestPermissionsResultListeners -> a
+    java.util.Set onActivityResultListeners -> b
     770:773:void <init>(android.app.Activity,androidx.lifecycle.Lifecycle) -> <init>
-    791:792:void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener) -> a
     808:815:boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
-    821:822:void addActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> a
     836:842:boolean onActivityResult(int,int,android.content.Intent) -> a
     864:867:void onNewIntent(android.content.Intent) -> a
     898:901:void onUserLeaveHint() -> a
     920:923:void onRestoreInstanceState(android.os.Bundle) -> a
-    827:828:void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> b
     909:912:void onSaveInstanceState(android.os.Bundle) -> b
-    778:778:android.app.Activity getActivity() -> c
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineBroadcastReceiverPluginBinding -> io.flutter.embedding.engine.d$d:
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineContentProviderPluginBinding -> io.flutter.embedding.engine.d$e:
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineServicePluginBinding -> io.flutter.embedding.engine.d$f:
@@ -2176,10 +2155,6 @@ io.flutter.embedding.engine.plugins.activity.ActivityControlSurface -> io.flutte
     void onSaveInstanceState(android.os.Bundle) -> b
     void detachFromActivityForConfigChanges() -> c
 io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding -> io.flutter.embedding.engine.i.c.c:
-    void addActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> a
-    void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener) -> a
-    void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> b
-    android.app.Activity getActivity() -> c
 io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener -> io.flutter.embedding.engine.i.c.c$a:
     void onRestoreInstanceState(android.os.Bundle) -> a
     void onSaveInstanceState(android.os.Bundle) -> b
@@ -3519,7 +3494,7 @@ io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener$1 -> i
     244:245:void run() -> run
 io.flutter.plugins.GeneratedPluginRegistrant -> io.flutter.plugins.GeneratedPluginRegistrant:
     15:15:void <init>() -> <init>
-    19:33:void registerWith(io.flutter.embedding.engine.FlutterEngine) -> registerWith
+    19:28:void registerWith(io.flutter.embedding.engine.FlutterEngine) -> registerWith
 io.flutter.plugins.connectivity.Connectivity -> io.flutter.plugins.a.a:
     android.net.ConnectivityManager connectivityManager -> a
     16:18:void <init>(android.net.ConnectivityManager) -> <init>
@@ -4049,9 +4024,7 @@ io.flutter.view.VsyncWaiter$DisplayListener -> io.flutter.view.e$b:
     33:33:void onDisplayRemoved(int) -> onDisplayRemoved
 kotlin.ExceptionsKt -> f.a:
     void addSuppressed(java.lang.Throwable,java.lang.Throwable) -> a
-    java.lang.String stackTraceToString(java.lang.Throwable) -> a
 kotlin.ExceptionsKt__ExceptionsKt -> f.b:
-    56:60:java.lang.String stackTraceToString(java.lang.Throwable) -> a
     70:72:void addSuppressed(java.lang.Throwable,java.lang.Throwable) -> a
 kotlin.Function -> f.c:
 kotlin.Lazy -> f.d:
@@ -4117,7 +4090,6 @@ kotlin.collections.ArraysKt -> f.q.a:
     java.lang.Object[] copyInto$default(java.lang.Object[],java.lang.Object[],int,int,int,int,java.lang.Object) -> a
     void fill(java.lang.Object[],java.lang.Object,int,int) -> a
     void fill$default(java.lang.Object[],java.lang.Object,int,int,int,java.lang.Object) -> a
-    int first(int[]) -> a
     char single(char[]) -> a
     java.lang.Object singleOrNull(java.lang.Object[]) -> b
     java.util.List sortedWith(java.lang.Object[],java.util.Comparator) -> c
@@ -4131,7 +4103,6 @@ kotlin.collections.ArraysKt___ArraysJvmKt -> f.q.d:
     1914:1915:void fill(java.lang.Object[],java.lang.Object,int,int) -> a
     2557:2558:void sortWith(java.lang.Object[],java.util.Comparator) -> a
 kotlin.collections.ArraysKt___ArraysKt -> f.q.e:
-    1042:1043:int first(int[]) -> a
     2890:2891:char single(char[]) -> a
     3063:3063:java.lang.Object singleOrNull(java.lang.Object[]) -> b
     6423:6424:java.lang.Object[] sortedArrayWith(java.lang.Object[],java.util.Comparator) -> b
@@ -4145,7 +4116,6 @@ kotlin.collections.CollectionsKt -> f.q.g:
     int getLastIndex(java.util.List) -> a
     java.lang.Appendable joinTo$default(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object) -> a
     java.lang.String joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object) -> a
-    java.util.List listOf(java.lang.Object) -> a
     java.util.List listOf(java.lang.Object[]) -> a
     java.lang.Comparable minOrNull(java.lang.Iterable) -> a
     java.util.List optimizeReadOnlyList(java.util.List) -> b
@@ -4260,7 +4230,6 @@ kotlin.collections.IntIterator -> f.q.v:
     36:36:java.lang.Integer next() -> next
 kotlin.collections.MapsKt -> f.q.w:
     int mapCapacity(int) -> a
-    java.util.Map mapOf(kotlin.Pair[]) -> a
     java.util.Map toMap(java.lang.Iterable) -> a
 kotlin.collections.MapsKt__MapWithDefaultKt -> f.q.x:
 kotlin.collections.MapsKt__MapsJVMKt -> f.q.y:
@@ -4269,12 +4238,9 @@ kotlin.collections.MapsKt__MapsJVMKt -> f.q.y:
     153:161:int mapCapacity(int) -> a
 kotlin.collections.MapsKt__MapsKt -> f.q.z:
     40:40:java.util.Map emptyMap() -> a
-    55:55:java.util.Map mapOf(kotlin.Pair[]) -> a
-    404:407:void putAll(java.util.Map,kotlin.Pair[]) -> a
     413:416:void putAll(java.util.Map,java.lang.Iterable) -> a
     544:551:java.util.Map toMap(java.lang.Iterable) -> a
     558:558:java.util.Map toMap(java.lang.Iterable,java.util.Map) -> a
-    576:576:java.util.Map toMap(kotlin.Pair[],java.util.Map) -> a
     782:786:java.util.Map optimizeReadOnlyMap(java.util.Map) -> b
 kotlin.collections.MapsKt___MapsKt -> f.q.a0:
 kotlin.collections.SetsKt -> f.q.b0:
@@ -6378,116 +6344,3 @@ kotlinx.coroutines.scheduling.WorkQueue -> kotlinx.coroutines.n2.m:
     66:66:kotlinx.coroutines.scheduling.Task poll() -> c
     181:185:kotlinx.coroutines.scheduling.Task pollBuffer() -> d
 kotlinx.coroutines.selects.SelectClause0 -> kotlinx.coroutines.o2.a:
-me.schlaubi.fluttercontactpicker.AbstractFlutterContactPickerPlugin -> g.a.a.a:
-    io.flutter.plugin.common.MethodChannel methodChannel -> a
-    10:10:void <init>() -> <init>
-    16:18:void registerChannel(io.flutter.plugin.common.BinaryMessenger) -> a
-    27:44:void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> a
-    me.schlaubi.fluttercontactpicker.PickContext getContext() -> c
-    21:23:void unregisterChannel() -> d
-me.schlaubi.fluttercontactpicker.AbstractFlutterContactPickerPlugin$onMethodCall$1 -> g.a.a.a$a:
-    io.flutter.plugin.common.MethodChannel$Result $result -> a
-    32:32:void <init>(io.flutter.plugin.common.MethodChannel$Result) -> <init>
-    34:39:boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
-me.schlaubi.fluttercontactpicker.AbstractPickContext -> g.a.a.b:
-    java.util.List listeners -> a
-    6:6:void <init>() -> <init>
-    12:12:void addActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> a
-    15:15:boolean onActivityResult(int,int,android.content.Intent) -> a
-    10:10:void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> b
-me.schlaubi.fluttercontactpicker.ContactPicker -> g.a.a.c:
-    me.schlaubi.fluttercontactpicker.ContactPicker$Companion Companion -> e
-    me.schlaubi.fluttercontactpicker.PickContext pickContext -> a
-    android.net.Uri type -> d
-    int requestCode -> c
-    io.flutter.plugin.common.MethodChannel$Result result -> b
-    19:19:void <init>(me.schlaubi.fluttercontactpicker.PickContext,io.flutter.plugin.common.MethodChannel$Result,boolean,int,android.net.Uri) -> <init>
-    19:19:java.util.Map access$buildContact(me.schlaubi.fluttercontactpicker.ContactPicker,android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-    19:19:java.util.Map access$buildDisplayNamed(me.schlaubi.fluttercontactpicker.ContactPicker,android.database.Cursor,java.lang.String,java.util.Map) -> a
-    19:19:me.schlaubi.fluttercontactpicker.PickContext access$getPickContext$p(me.schlaubi.fluttercontactpicker.ContactPicker) -> a
-    35:38:void requestPicker() -> a
-    41:51:boolean onActivityResult(int,int,android.content.Intent) -> a
-    57:64:void processInput(android.content.Intent,kotlin.jvm.functions.Function1) -> a
-    67:70:void processDisplayNamed(android.content.Intent,java.lang.String,kotlin.jvm.functions.Function3) -> a
-    74:84:void processContact(android.content.Intent,kotlin.jvm.functions.Function3) -> a
-    87:99:java.util.Map buildContact(android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-    126:128:byte[] buildPhoto(android.content.ContentResolver,android.net.Uri) -> a
-    137:140:java.util.Map buildCustomField(android.database.Cursor) -> a
-    184:196:java.util.Map buildAddress(android.database.Cursor,android.app.Activity) -> a
-    217:221:java.util.Map buildDisplayNamed(android.database.Cursor,java.lang.String,java.util.Map) -> a
-    235:237:java.util.Map buildLabeledItem(android.database.Cursor,android.app.Activity,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
-    241:241:kotlin.Pair label(java.lang.String) -> a
-    244:254:boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
-    19:19:java.util.Map access$buildEmailAddress(me.schlaubi.fluttercontactpicker.ContactPicker,android.database.Cursor,android.app.Activity,android.net.Uri) -> b
-    19:19:io.flutter.plugin.common.MethodChannel$Result access$getResult$p(me.schlaubi.fluttercontactpicker.ContactPicker) -> b
-    144:153:java.util.Map buildInstantMessenger(android.database.Cursor,android.app.Activity) -> b
-    209:213:java.util.Map buildName(android.database.Cursor) -> b
-    230:231:java.util.Map buildEmailAddress(android.database.Cursor,android.app.Activity,android.net.Uri) -> b
-    19:19:java.util.Map access$buildPhoneNumber(me.schlaubi.fluttercontactpicker.ContactPicker,android.database.Cursor,android.app.Activity,android.net.Uri) -> c
-    160:180:java.util.Map buildRelation(android.database.Cursor) -> c
-    225:226:java.util.Map buildPhoneNumber(android.database.Cursor,android.app.Activity,android.net.Uri) -> c
-    119:119:java.lang.String getCompany(android.database.Cursor) -> d
-    121:121:java.lang.String getNote(android.database.Cursor) -> e
-    123:123:java.lang.String getSip(android.database.Cursor) -> f
-me.schlaubi.fluttercontactpicker.ContactPicker$Companion -> g.a.a.c$a:
-    257:257:void <init>() -> <init>
-    262:262:me.schlaubi.fluttercontactpicker.ContactPicker requestPicker(int,android.net.Uri,io.flutter.plugin.common.MethodChannel$Result,me.schlaubi.fluttercontactpicker.PickContext,boolean) -> a
-me.schlaubi.fluttercontactpicker.ContactPicker$onActivityResult$1 -> g.a.a.c$b:
-    43:43:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> a
-    43:43:java.util.Map invoke(android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-me.schlaubi.fluttercontactpicker.ContactPicker$onActivityResult$2 -> g.a.a.c$c:
-    44:44:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> a
-    44:44:java.util.Map invoke(android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-me.schlaubi.fluttercontactpicker.ContactPicker$onActivityResult$3 -> g.a.a.c$d:
-    45:45:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> a
-    45:45:java.util.Map invoke(android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-me.schlaubi.fluttercontactpicker.ContactPicker$processContact$1 -> g.a.a.c$e:
-    me.schlaubi.fluttercontactpicker.ContactPicker this$0 -> d
-    kotlin.jvm.functions.Function3 $dataProcessor -> e
-    75:76:void invoke(android.net.Uri) -> a
-    74:74:java.lang.Object invoke(java.lang.Object) -> invoke
-me.schlaubi.fluttercontactpicker.ContactPicker$processDisplayNamed$processor$1 -> g.a.a.c$f:
-    me.schlaubi.fluttercontactpicker.ContactPicker this$0 -> d
-    java.lang.String $dataName -> e
-    kotlin.jvm.functions.Function3 $dataProcessor -> f
-    67:67:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> a
-    68:68:java.util.Map invoke(android.database.Cursor,android.app.Activity,android.net.Uri) -> a
-me.schlaubi.fluttercontactpicker.ContactPickerKt -> g.a.a.d:
-    1:1:void access$addNotNull(java.util.List,java.lang.Object) -> a
-    268:271:void addNotNull(java.util.List,java.lang.Object) -> b
-me.schlaubi.fluttercontactpicker.ContactPickingException -> g.a.a.e:
-    6:6:void <init>(java.lang.Throwable) -> <init>
-me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin -> g.a.a.f:
-    me.schlaubi.fluttercontactpicker.PickContext context -> d
-    io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding activity -> b
-    io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding pluginBinding -> c
-    10:10:void <init>() -> <init>
-    10:10:io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding access$getActivity$p(me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin) -> a
-    23:25:void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> a
-    28:30:void onDetachedFromActivity() -> a
-    35:38:void onAttachedToActivity(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding) -> a
-    10:10:io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding access$getPluginBinding$p(me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin) -> b
-    18:20:void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> b
-    32:32:void onReattachedToActivityForConfigChanges(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding) -> b
-    40:40:void onDetachedFromActivityForConfigChanges() -> b
-    14:14:me.schlaubi.fluttercontactpicker.PickContext getContext() -> c
-me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin$Companion -> g.a.a.f$a:
-    42:42:void <init>() -> <init>
-me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin$V2Context -> g.a.a.f$b:
-    me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin this$0 -> b
-    54:54:void <init>(me.schlaubi.fluttercontactpicker.FlutterContactPickerPlugin) -> <init>
-    56:56:android.app.Activity getActivity() -> c
-    59:60:android.content.Context getContext() -> getContext
-me.schlaubi.fluttercontactpicker.PermissionUtil -> g.a.a.g:
-    java.util.List listeners -> b
-    me.schlaubi.fluttercontactpicker.PermissionUtil INSTANCE -> a
-    12:12:void <clinit>() -> <clinit>
-    11:11:void <init>() -> <init>
-    14:14:boolean hasPermission(android.content.Context) -> a
-    16:18:void requestPermission(android.app.Activity,io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener) -> a
-    20:20:boolean remove(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener) -> a
-    23:23:boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
-me.schlaubi.fluttercontactpicker.PickContext -> g.a.a.h:
-    void addActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> a
-    void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener) -> b
-    android.app.Activity getActivity() -> c
