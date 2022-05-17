@@ -5,7 +5,7 @@
 
 ```mermaid
 flowchart TD
-  A[Mobile directory] -->B{Organization Name};
+  A[Mobile directory] -->B[Organization Name];
   B ----> C[apks];
   B ----> D[App bundle];
   
