@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 1.5.64
 # min_api: 16
-# pg_map_id: ae01600
+# pg_map_id: 4ce2ed9
 $r8$java8methods$utility$Boolean$hashCode$IZ -> a:
     1:1:int hashCode(boolean) -> a
 $r8$java8methods$utility$Float$hashCode$IF -> b:
@@ -28464,23 +28464,23 @@ io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl -> io.flutter.plugins
     java.util.concurrent.ExecutorService executor -> b
     53:58:void <init>(android.content.Context) -> <init>
     35:35:android.os.Handler access$000(io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl) -> a
-    62:128:void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> a
-    131:133:void teardown() -> a
-    137:151:void commitAsync(android.content.SharedPreferences$Editor,io.flutter.plugin.common.MethodChannel$Result) -> a
-    154:164:java.util.List decodeList(java.lang.String) -> a
-    168:179:java.lang.String encodeList(java.util.List) -> a
-    184:220:java.util.Map getAllPrefs() -> b
+    62:130:void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> a
+    133:135:void teardown() -> a
+    139:153:void commitAsync(android.content.SharedPreferences$Editor,io.flutter.plugin.common.MethodChannel$Result) -> a
+    156:166:java.util.List decodeList(java.lang.String) -> a
+    170:181:java.lang.String encodeList(java.util.List) -> a
+    186:222:java.util.Map getAllPrefs() -> b
 io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl$1 -> io.flutter.plugins.c.a$a:
     io.flutter.plugin.common.MethodChannel$Result val$result -> f
     android.content.SharedPreferences$Editor val$editor -> e
     io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl this$0 -> g
-    138:138:void <init>(io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl,android.content.SharedPreferences$Editor,io.flutter.plugin.common.MethodChannel$Result) -> <init>
-    141:149:void run() -> run
+    140:140:void <init>(io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl,android.content.SharedPreferences$Editor,io.flutter.plugin.common.MethodChannel$Result) -> <init>
+    143:151:void run() -> run
 io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl$1$1 -> io.flutter.plugins.c.a$a$a:
     io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl$1 this$1 -> f
     boolean val$response -> e
-    143:143:void <init>(io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl$1,boolean) -> <init>
-    146:147:void run() -> run
+    145:145:void <init>(io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl$1,boolean) -> <init>
+    148:149:void run() -> run
 io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin -> io.flutter.plugins.c.b:
     io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl handler -> b
     io.flutter.plugin.common.MethodChannel channel -> a
