@@ -1,0 +1,68 @@
+{
+  "id": 1,
+  "title": "Competitors Branding",
+  "subtitle": "",
+  "rounded": true,
+  "type": "QUESTION",
+  "titled": true,
+  "questions": [
+
+    {
+      "id": 1,
+      "hint": "Competitor name ",
+      "question": "Competitor name",
+      "type": "TEXT",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "hint": "Select type",
+      "question": "Branding type",
+      "type": "DROPDOWN",
+      "options": [
+        {
+          "id": "Brand 1",
+          "value": "1"
+        },
+        {
+          "id": "Brand 2",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "hint": "Enter comment here",
+      "question": "Comment",
+      "type": "TEXT",
+      "options": [
+
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Competitor Branding Photos",
+      "hint": "Competitor Branding Photos",
+      "type": "PHOTO",
+      "options": [
+        {
+          "id": "Male",
+          "value": "1"
+        },
+        {
+          "id": "Female",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}

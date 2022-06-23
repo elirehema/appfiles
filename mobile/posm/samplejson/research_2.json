@@ -1,0 +1,155 @@
+{
+  "id": 1,
+  "title": "Available Products",
+  "subtitle": "Tap to add products",
+  "rounded": false,
+  "type": "SELECTION",
+  "titled": true,
+  "questions": [
+
+    {
+      "id": 1,
+      "hint": "What is your name ?",
+      "question": "Name",
+      "type": "TEXT",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "hint": "Select your country",
+      "question":"Select your country",
+      "type": "DROPDOWN",
+      "options": [
+        {
+          "id": "Tanzania",
+          "value": "1"
+        },
+        {
+          "id": "Kenya ",
+          "value": "2"
+        },
+        {
+          "id": "Uganda",
+          "value": "3"
+        },
+        {
+          "id": "South Africa",
+          "value": "4"
+        },
+        {
+          "id": "Peru",
+          "value": "5"
+        },{
+          "id": "Nicaragua",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "hint": "Research started date",
+      "question": "Research started date",
+      "type": "DATE",
+      "options": [
+
+      ]
+    },
+    {
+      "id": 4,
+      "hint": "Select research started time ?",
+      "question": "Research time ",
+      "type": "TIME",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Terms and Conditions",
+      "hint": "Do you agree with terms ?",
+      "type": "CHECKBOX",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    }, {
+      "id": 5,
+      "question": "Gender",
+      "hint": "How can we define you ?",
+      "type": "RADIO",
+      "options": [
+        {
+          "id": "Male",
+          "value": "1"
+        },
+        {
+          "id": "Female",
+          "value": "2"
+        }
+      ]
+    }, {
+      "id": 7,
+      "question": "Name",
+      "hint": "What is your name",
+      "type": "INPUTS",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Phone number",
+      "hint": "Enter your phone number",
+      "type": "PHONE",
+      "options": [
+      ]
+    },
+
+    {
+      "id": 9,
+      "question": "Submit",
+      "hint": "Click to submit",
+      "type": "SUBMIT",
+      "options": [
+        {
+          "id": "Option 1",
+          "value": "1"
+        },
+        {
+          "id": "Option 2",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
