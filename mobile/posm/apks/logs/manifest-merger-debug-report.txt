@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 application
 INJECTED from /home/runner/work/posm/posm/android/app/src/main/AndroidManifest.xml:8:5-33:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] /home/runner/.gradle/caches/transforms-2/files-2.1/e4b5bb7c6112857907c832cf9b9a451e/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] /home/runner/.gradle/caches/transforms-2/files-2.1/e4b5bb7c6112857907c832cf9b9a451e/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runner/.gradle/caches/transforms-2/files-2.1/5abde57ec3271bb3a9214a0f3e1068ad/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -21,7 +21,7 @@ MERGED from [:sqflite] /home/runner/work/posm/posm/build/sqflite/intermediates/l
 MERGED from [:connectivity] /home/runner/work/posm/posm/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:shared_preferences_android] /home/runner/work/posm/posm/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/dc4f4fadea5c73220d64780ac241e854/window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c3bda3a486d732bdc834ec89fae768b0/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c79c8212d76344bdb7e7c6d0bd030b25/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/3f192d2c93cbd39792f7caf147874073/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -36,7 +36,7 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/runner/.gradle/caches/transfo
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7dece199a1d4f5f11d593e83da6764e1/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runner/.gradle/caches/transforms-2/files-2.1/5abde57ec3271bb3a9214a0f3e1068ad/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/e08a7cd8c3d953b65ad46eb8cb27c347/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/698ad3a2f9fbb47b1a10a61cad020ecd/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/runner/work/posm/posm/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/runner/work/posm/posm/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/runner/work/posm/posm/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -66,8 +66,8 @@ MERGED from [:shared_preferences_android] /home/runner/work/posm/posm/build/shar
 MERGED from [:shared_preferences_android] /home/runner/work/posm/posm/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/dc4f4fadea5c73220d64780ac241e854/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/dc4f4fadea5c73220d64780ac241e854/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c3bda3a486d732bdc834ec89fae768b0/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c3bda3a486d732bdc834ec89fae768b0/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c79c8212d76344bdb7e7c6d0bd030b25/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -96,8 +96,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runne
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runner/.gradle/caches/transforms-2/files-2.1/5abde57ec3271bb3a9214a0f3e1068ad/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/cc4af79d49e9079ffa5f05236a3ef140/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/e08a7cd8c3d953b65ad46eb8cb27c347/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/e08a7cd8c3d953b65ad46eb8cb27c347/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/698ad3a2f9fbb47b1a10a61cad020ecd/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/698ad3a2f9fbb47b1a10a61cad020ecd/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/runner/work/posm/posm/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/runner/work/posm/posm/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -115,14 +115,14 @@ ADDED from [:connectivity] /home/runner/work/posm/posm/build/connectivity/interm
 	android:name
 		ADDED from [:connectivity] /home/runner/work/posm/posm/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/e1be30ad9efc9a0be3687618c635e987/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-2/files-2.1/79ba29c3e89353343604aa3adc1bc385/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
