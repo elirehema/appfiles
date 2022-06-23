@@ -1237,7 +1237,7 @@ drawable:notification_bg:2130968579 => [drawable:notification_bg_normal_pressed:
 drawable:notification_bg_low:2130968580 => [drawable:notification_bg_low_pressed:2130968582, drawable:notification_bg_low_normal:2130968581]
 drawable:notification_icon_background:2130968585 => [color:notification_icon_bg_color:2130837509]
 drawable:notification_tile_bg:2130968588 => [drawable:notify_panel_notification_icon_bg:2130968589]
-drawable:splash_background:2130968590 => [color:green:2130837506, mipmap:ic_launcher_foreground:2131230721]
+drawable:splash_background:2130968590 => [color:primary:2130837510, mipmap:ic_launcher_foreground:2131230721]
 layout:notification_action:2131165185 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
 layout:notification_action_tombstone:2131165186 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
 layout:notification_template_custom_big:2131165187 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165190, layout:notification_template_part_chronometer:2131165189, style:TextAppearance_Compat_Notification_Info:2131361795, layout:notification_template_icon_group:2131165188]
@@ -1374,15 +1374,15 @@ Skipped unused resource res/layout-v21/notification_action.xml: -1 bytes (replac
 Skipped unused resource res/layout-v21/notification_action_tombstone.xml: -1 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_template_custom_big.xml: -1 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_template_icon_group.xml: -1 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/mipmap-mdpi-v4/ic_launcher.png: 947 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-mdpi-v4/ic_launcher_round.png: 2008 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-hdpi-v4/ic_launcher.png: 1297 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-hdpi-v4/ic_launcher_round.png: 3216 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher.png: 1736 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher_round.png: 4470 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher.png: 2723 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher_round.png: 7011 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher.png: 3869 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher_round.png: 10290 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-mdpi-v4/ic_launcher.png: 1176 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-mdpi-v4/ic_launcher_round.png: 2322 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-hdpi-v4/ic_launcher.png: 1782 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-hdpi-v4/ic_launcher_round.png: 3643 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher.png: 2452 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher_round.png: 5284 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher.png: 3777 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher_round.png: 8422 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher.png: 5415 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher_round.png: 12400 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/mipmap-anydpi-v26/ic_launcher.xml: -1 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/mipmap-anydpi-v26/ic_launcher_round.xml: -1 bytes (replaced with small dummy file of size 9 bytes)
