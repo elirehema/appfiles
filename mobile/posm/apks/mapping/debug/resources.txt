@@ -1151,7 +1151,6 @@ Marking attr:primaryActivityName:2130771988 used because its prefix matches stri
 Marking color:androidx_core_ripple_material_light:2130837504 used because its prefix matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2130837505 used because its prefix matches string pool constant android
 Marking id:androidx_window_activity_scope:2131034150 used because its prefix matches string pool constant android
-Marking attr:android_colorBackground:-1 used because its prefix matches string pool constant android
 Marking attr:android_color:-1 used because its prefix matches string pool constant android
 Marking attr:android_alpha:-1 used because its prefix matches string pool constant android
 Marking attr:android_fontStyle:-1 used because its prefix matches string pool constant android
@@ -1172,6 +1171,7 @@ Marking attr:android_endX:-1 used because its prefix matches string pool constan
 Marking attr:android_endY:-1 used because its prefix matches string pool constant android
 Marking attr:android_tileMode:-1 used because its prefix matches string pool constant android
 Marking attr:android_offset:-1 used because its prefix matches string pool constant android
+Marking attr:android_colorBackground:-1 used because its prefix matches string pool constant android
 Marking attr:shortcutMatchRequired:2130771992 used because its prefix matches string pool constant short
 Marking styleable:SplitPairFilter:-1 used because its prefix matches string pool constant SplitPairFilter
 Marking attr:clearTop:2130771972 used because its prefix matches string pool constant clear
@@ -1212,7 +1212,7 @@ layout:notification_template_part_time:2131165190 => [style:TextAppearance_Compa
 mipmap:ic_launcher:2131230720 => [color:ic_launcher_background:2130837507, mipmap:ic_launcher_foreground:2131230721]
 mipmap:ic_launcher_round:2131230722 => [color:ic_launcher_background:2130837507, mipmap:ic_launcher_foreground:2131230721]
 style:LaunchTheme:2131361792 => [drawable:launch_background:2130968576]
-style:NormalTheme:2131361793 => [attr:android_colorBackground:-1, drawable:normal_background:2130968577]
+style:NormalTheme:2131361793 => [drawable:normal_background:2130968577, attr:android_colorBackground:-1]
 style:TextAppearance_Compat_Notification_Info:2131361795 => [style:TextAppearance_Compat_Notification:2131361794, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
 style:TextAppearance_Compat_Notification_Line2:2131361796 => [style:TextAppearance_Compat_Notification_Info:2131361795]
 style:TextAppearance_Compat_Notification_Time:2131361797 => [style:TextAppearance_Compat_Notification:2131361794, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
@@ -1282,7 +1282,6 @@ attr:activityAction:2130771968,
    styleable:SplitPairFilter:-1,
    styleable:SplitPairRule:-1,
    styleable:SplitPlaceholderRule:-1,
-   attr:android_colorBackground:-1,
    attr:android_color:-1,
    attr:android_alpha:-1,
    attr:android_fontStyle:-1,
@@ -1302,7 +1301,8 @@ attr:activityAction:2130771968,
    attr:android_endX:-1,
    attr:android_endY:-1,
    attr:android_tileMode:-1,
-   attr:android_offset:-1
+   attr:android_offset:-1,
+   attr:android_colorBackground:-1
 Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
