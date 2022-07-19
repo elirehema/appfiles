@@ -1195,7 +1195,7 @@ Marking id:line3:2131034161 used because its prefix matches string pool constant
 Resource Reference Graph:
 color:notification_action_color_filter:2130837508 => [color:androidx_core_secondary_text_default_material_light:2130837505]
 dimen:notification_media_narrow_margin:2130903054 => [dimen:notification_content_margin_start:2130903050]
-drawable:launch_background:2130968576 => [color:primary:2130837510, mipmap:ic_launcher_foreground:2131230721]
+drawable:launch_background:2130968576 => [mipmap:ic_launcher_foreground:2131230721, color:primary:2130837510]
 drawable:normal_background:2130968577 => [color:primary:2130837510, mipmap:ic_launcher_foreground:2131230721]
 drawable:notification_action_background:2130968578 => [color:androidx_core_ripple_material_light:2130837504, dimen:compat_button_inset_vertical_material:2130903041, dimen:compat_button_inset_horizontal_material:2130903040, dimen:compat_control_corner_material:2130903044, dimen:compat_button_padding_vertical_material:2130903043, dimen:compat_button_padding_horizontal_material:2130903042]
 drawable:notification_bg:2130968579 => [drawable:notification_bg_normal_pressed:2130968584, drawable:notification_bg_normal:2130968583]
