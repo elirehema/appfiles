@@ -86,6 +86,7 @@ Referenced Strings:
   Active
   ActivityFilter
   ActivityRule
+  AppBundleLocaleChanges
   AppLifecycleState.detached
   AppLifecycleState.inactive
   AppLifecycleState.paused
@@ -94,6 +95,7 @@ Referenced Strings:
   BITMAP
   BITMAP_MASKABLE
   BLOCKING
+  BOLD_TEXT
   BOTH
   BOTTOM_OVERLAYS
   BanParcelableUsage
@@ -192,6 +194,7 @@ Referenced Strings:
   HAS_IMPLICIT_SCROLLING
   HAS_TOGGLED_STATE
   HEAVY_IMPACT
+  HIGH_CONTRAST
   HINGE
   HORIZONTAL
   HapticFeedback.vibrate
@@ -217,6 +220,7 @@ Referenced Strings:
   IS_KEYBOARD_KEY
   IS_LINK
   IS_LIVE_REGION
+  IS_MULTILINE
   IS_OBSCURED
   IS_READ_ONLY
   IS_SELECTED
@@ -268,6 +272,7 @@ Referenced Strings:
   ON_CLOSE_HANDLER_INVOKED
   ON_CREATE
   ON_DESTROY
+  ON_OFF_SWITCH_LABELS
   ON_PAUSE
   ON_RESUME
   ON_START
@@ -277,8 +282,8 @@ Referenced Strings:
   PARKING
   PASTE
   PHONE
+  PHYSICAL_DISPLAY_PLATFORM_VIEW
   PLAIN_TEXT
-  PLATFORM_VIEW
   POLL_FAILED
   PORTRAIT_DOWN
   PORTRAIT_UP
@@ -293,7 +298,7 @@ Referenced Strings:
   PlatformViewWrapper
   PlatformViewsChannel
   PlatformViewsController
-  PrivateApi
+  REDUCE_MOTION
   REMOVED_TASK
   REMOVE_FROZEN
   RESOURCE
@@ -325,12 +330,15 @@ Referenced Strings:
   SendQueued
   SettingsChannel
   SidecarCompat
+  SpellCheck.initiateSpellCheck
+  SpellCheckChannel
   SplitPairFilter
   SplitPairRule
   SplitPlaceholderRule
   SplitRuleResolution
   Sqflite
   StorageError
+  SwitchIntDef
   SyntheticAccessor
   SystemChannel
   SystemChrome.restoreSystemUIOverlays
@@ -414,6 +422,7 @@ Referenced Strings:
   VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
   VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
   VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
+  VIRTUAL_DISPLAY_PLATFORM_VIEW
   VISIBLE_PASSWORD
   WORDS
   WindowInfoTrackerCallbackAdapter.kt
@@ -449,6 +458,7 @@ Referenced Strings:
   activityFilters
   adapter
   addSuppressed
+  addView
   addressCity
   addressCountry
   addressLocality
@@ -531,6 +541,7 @@ Referenced Strings:
   collect
   collection
   columns
+  com.google.android.inputmethod.latin
   com.tekartik.sqflite
   commit
   commonPool
@@ -631,6 +642,7 @@ Referenced Strings:
   flutter/accessibility
   flutter/deferredcomponent
   flutter/isolate
+  flutter/keydata
   flutter/keyevent
   flutter/lifecycle
   flutter/localization
@@ -640,6 +652,7 @@ Referenced Strings:
   flutter/platform_views
   flutter/restoration
   flutter/settings
+  flutter/spellcheck
   flutter/system
   flutter/textinput
   flutter_assets
@@ -700,6 +713,7 @@ Referenced Strings:
   io.flutter.Entrypoint
   io.flutter.EntrypointUri
   io.flutter.InitialRoute
+  io.flutter.embedding.android.EnableIm...
   io.flutter.embedding.android.EnableSk...
   io.flutter.embedding.android.LeakVM
   io.flutter.embedding.android.NormalTheme
@@ -742,6 +756,9 @@ Referenced Strings:
   java.util.Set
   java.util.concurrent.ForkJoinPool
   job
+  kDown
+  kRepeat
+  kUp
   kernel_blob.bin
   key
   keyCode
@@ -838,6 +855,7 @@ Referenced Strings:
   name
   namePrefix
   nameSuffix
+  nativeSpellCheckServiceDefined
   navigation_bar_height
   newConfig
   newDeviceState
@@ -929,7 +947,6 @@ Referenced Strings:
   primaryColor
   primitiveFqNames.values
   producerIndex
-  productId
   push
   pushRoute
   put
@@ -943,6 +960,8 @@ Referenced Strings:
   rect
   registerWith
   remove
+  removeView
+  removeViewImmediate
   repeatCount
   resize
   resizeColumn
@@ -1034,6 +1053,7 @@ Referenced Strings:
   text/plain
   textCapitalization
   textScaleFactor
+  textservices
   texture
   this$0
   throwableMethods
@@ -1052,9 +1072,10 @@ Referenced Strings:
   uninstallDeferredComponent
   uniqueIdentifier
   update
+  updateViewLayout
   username
+  usesVirtualDisplay
   value
-  vendorId
   verticalText
   view
   viewFocused
