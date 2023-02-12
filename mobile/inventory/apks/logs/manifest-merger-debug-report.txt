@@ -59,7 +59,7 @@ INJECTED from /home/runner/work/inventory/inventory/android/app/src/debug/Androi
 INJECTED from /home/runner/work/inventory/inventory/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/runner/work/inventory/inventory/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/runner/work/inventory/inventory/android/app/src/main/AndroidManifest.xml:3:5-34
+		ADDED from /home/runner/work/inventory/inventory/android/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/runner/work/inventory/inventory/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/runner/work/inventory/inventory/android/app/src/debug/AndroidManifest.xml
 	android:versionName
