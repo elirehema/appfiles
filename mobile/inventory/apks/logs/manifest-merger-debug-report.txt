@@ -32,7 +32,6 @@ MERGED from /home/runner/work/inventory/inventory/android/app/src/main/AndroidMa
 MERGED from [:shared_preferences_android] /home/runner/work/inventory/inventory/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:geolocator_android] /home/runner/work/inventory/inventory/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/c264ae852196c6dc367cbe9ed40ed91b/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/e20bf4deea3d05beee1c6ef628816afd/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/runner/.gradle/caches/transforms-3/902dccb2ce3e2327e799a12214040bc6/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
@@ -93,8 +92,6 @@ MERGED from [:geolocator_android] /home/runner/work/inventory/inventory/build/ge
 MERGED from [:geolocator_android] /home/runner/work/inventory/inventory/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/c264ae852196c6dc367cbe9ed40ed91b/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/c264ae852196c6dc367cbe9ed40ed91b/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/e20bf4deea3d05beee1c6ef628816afd/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
