@@ -3710,19 +3710,6 @@ com.google.android.gms.tasks.zzx
 com.google.firebase.FirebaseApiNotAvailableException
 com.google.firebase.FirebaseException
 com.google.firebase.FirebaseExceptionMapper
-com.hesaafrica.inventory.BuildConfig
-com.hesaafrica.inventory.R$attr
-com.hesaafrica.inventory.R$color
-com.hesaafrica.inventory.R$dimen
-com.hesaafrica.inventory.R$drawable
-com.hesaafrica.inventory.R$id
-com.hesaafrica.inventory.R$integer
-com.hesaafrica.inventory.R$layout
-com.hesaafrica.inventory.R$mipmap
-com.hesaafrica.inventory.R$string
-com.hesaafrica.inventory.R$style
-com.hesaafrica.inventory.R$styleable
-com.hesaafrica.inventory.R
 io.flutter.BuildConfig
 io.flutter.FlutterInjector$Builder:
     public io.flutter.FlutterInjector$Builder setDeferredComponentManager(io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager)
@@ -10523,6 +10510,19 @@ org.jetbrains.annotations.NotNull
 org.jetbrains.annotations.Nullable
 org.jetbrains.annotations.PropertyKey
 org.jetbrains.annotations.TestOnly
+org.marketgrid.app.faida.BuildConfig
+org.marketgrid.app.faida.R$attr
+org.marketgrid.app.faida.R$color
+org.marketgrid.app.faida.R$dimen
+org.marketgrid.app.faida.R$drawable
+org.marketgrid.app.faida.R$id
+org.marketgrid.app.faida.R$integer
+org.marketgrid.app.faida.R$layout
+org.marketgrid.app.faida.R$mipmap
+org.marketgrid.app.faida.R$string
+org.marketgrid.app.faida.R$style
+org.marketgrid.app.faida.R$styleable
+org.marketgrid.app.faida.R
 androidx.arch.core.executor.ArchTaskExecutor:
     private static final java.util.concurrent.Executor sIOThreadExecutor
     private static final java.util.concurrent.Executor sMainThreadExecutor
