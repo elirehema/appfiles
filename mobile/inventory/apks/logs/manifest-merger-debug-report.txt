@@ -37,6 +37,7 @@ MERGED from [:shared_preferences_android] /home/runner/work/inventory/inventory/
 MERGED from [:geolocator_android] /home/runner/work/inventory/inventory/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:share_plus] /home/runner/work/inventory/inventory/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-37:12
+MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher_android] /home/runner/work/inventory/inventory/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] /home/runner/work/inventory/inventory/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/runner/.gradle/caches/transforms-3/288e3b156777cfb7feab6294d573f2db/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -130,6 +131,8 @@ MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connecti
 MERGED from [:connectivity] /home/runner/work/inventory/inventory/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:share_plus] /home/runner/work/inventory/inventory/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:share_plus] /home/runner/work/inventory/inventory/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /home/runner/work/inventory/inventory/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /home/runner/work/inventory/inventory/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /home/runner/work/inventory/inventory/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /home/runner/work/inventory/inventory/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
