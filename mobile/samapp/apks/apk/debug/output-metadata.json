@@ -16,7 +16,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 4003,
+      "versionCode": 4004,
       "versionName": "1.0.1",
       "outputFile": "app-x86_64-debug.apk"
     },
@@ -29,7 +29,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 1003,
+      "versionCode": 1004,
       "versionName": "1.0.1",
       "outputFile": "app-armeabi-v7a-debug.apk"
     },
@@ -42,7 +42,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 2003,
+      "versionCode": 2004,
       "versionName": "1.0.1",
       "outputFile": "app-arm64-v8a-debug.apk"
     }
