@@ -10,9 +10,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/runne
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /home/runner/.gradle/caches/transforms-3/81c4257e2ba9e33805d470f573b51b81/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/runner/work/egsaving/egsaving/android/app/src/main/AndroidManifest.xml:10:9-34
+		ADDED from /home/runner/work/egsaving/egsaving/android/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /home/runner/work/egsaving/egsaving/android/app/src/main/AndroidManifest.xml:11:9-45
+		ADDED from /home/runner/work/egsaving/egsaving/android/app/src/main/AndroidManifest.xml:11:9-43
 	android:enableOnBackInvokedCallback
 		ADDED from /home/runner/work/egsaving/egsaving/android/app/src/main/AndroidManifest.xml:12:9-51
 	android:name

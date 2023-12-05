@@ -1455,14 +1455,13 @@ Marking id:line3:2131034161 used because it matches string pool constant line
     @org.egsaving.tcbbank:style/TextAppearance_Compat_Notification_Time
 @org.egsaving.tcbbank:layout/notification_template_part_time : reachable=false
     @org.egsaving.tcbbank:style/TextAppearance_Compat_Notification_Time
-@org.egsaving.tcbbank:mipmap/ic_launcher : reachable=false
+@org.egsaving.tcbbank:mipmap/ic_launcher : reachable=true
     @org.egsaving.tcbbank:color/ic_launcher_background
     @org.egsaving.tcbbank:mipmap/ic_launcher_foreground
 @org.egsaving.tcbbank:mipmap/ic_launcher_foreground : reachable=false
 @org.egsaving.tcbbank:mipmap/ic_launcher_round : reachable=false
     @org.egsaving.tcbbank:color/ic_launcher_background
     @org.egsaving.tcbbank:mipmap/ic_launcher_foreground
-@org.egsaving.tcbbank:mipmap/launcher_icon : reachable=true
 @org.egsaving.tcbbank:string/status_bar_notification_info_overflow : reachable=false
 @org.egsaving.tcbbank:style/LaunchTheme : reachable=true
     @org.egsaving.tcbbank:drawable/launch_background
@@ -1537,7 +1536,7 @@ The root reachable resources are:
  id:tag_accessibility_pane_title:2131034174
  id:text:2131034184
  id:text2:2131034185
- mipmap:launcher_icon:2131230723
+ mipmap:ic_launcher:2131230720
  style:LaunchTheme:2131361792
  style:NormalTheme:2131361793
 Skipped unused resource base/res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
@@ -1572,15 +1571,9 @@ Skipped unused resource base/res/layout-v21/notification_action.xml: 2216 bytes 
 Skipped unused resource base/res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource base/res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource base/res/layout-v21/notification_template_icon_group.xml: 2432 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource base/res/mipmap-mdpi-v4/ic_launcher.png: 947 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-mdpi-v4/ic_launcher_round.png: 2008 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-hdpi-v4/ic_launcher.png: 1290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-hdpi-v4/ic_launcher_round.png: 3216 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xhdpi-v4/ic_launcher.png: 1714 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xhdpi-v4/ic_launcher_round.png: 4470 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xxhdpi-v4/ic_launcher.png: 2660 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xxhdpi-v4/ic_launcher_round.png: 7011 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xxxhdpi-v4/ic_launcher.png: 3526 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-xxxhdpi-v4/ic_launcher_round.png: 10290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource base/res/mipmap-anydpi-v26/ic_launcher.xml: 413 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/mipmap-mdpi-v4/ic_launcher_round.webp: 2430 bytes (replaced with small dummy file of size 0 bytes)
+Skipped unused resource base/res/mipmap-hdpi-v4/ic_launcher_round.webp: 3640 bytes (replaced with small dummy file of size 0 bytes)
+Skipped unused resource base/res/mipmap-xhdpi-v4/ic_launcher_round.webp: 5020 bytes (replaced with small dummy file of size 0 bytes)
+Skipped unused resource base/res/mipmap-xxhdpi-v4/ic_launcher_round.webp: 7254 bytes (replaced with small dummy file of size 0 bytes)
+Skipped unused resource base/res/mipmap-xxxhdpi-v4/ic_launcher_round.webp: 9676 bytes (replaced with small dummy file of size 0 bytes)
 Skipped unused resource base/res/mipmap-anydpi-v26/ic_launcher_round.xml: 413 bytes (replaced with small dummy file of size 9 bytes)
