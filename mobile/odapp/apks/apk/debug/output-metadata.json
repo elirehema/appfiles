@@ -12,19 +12,6 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "x86_64"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 4010,
-      "versionName": "1.0.0",
-      "outputFile": "app-x86_64-debug.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "armeabi-v7a"
         }
       ],
@@ -32,6 +19,19 @@
       "versionCode": 1010,
       "versionName": "1.0.0",
       "outputFile": "app-armeabi-v7a-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 4010,
+      "versionName": "1.0.0",
+      "outputFile": "app-x86_64-debug.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -47,5 +47,6 @@
       "outputFile": "app-arm64-v8a-debug.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 21
 }
