@@ -8780,7 +8780,7 @@ p.toString
 q.R(0,A.ay(["username",d,"password",p],e,e))
 q.R(0,A.ay(["username",d,"password",p,"client_secret","Password@123","Authorization","Basic Vk9EQUNPTTpQYXNzd29yZEAxMjM=","client_id","AIRTEL","grant_type","password"],e,e))
 o=A.c9(a,!1,t.O)
-n=A.bO("https://eppg.ngazi.co.tz/egsaving-gateway/oauth/token/app")
+n=A.bO("https://uat.tcbbank.co.tz:8443/egsaving-gateway/oauth/token/app")
 m=A.ay(["content-type","application/x-www-form-urlencoded"],e,e)
 e=o.a
 e===$&&A.a()
@@ -49601,7 +49601,7 @@ o=a.ai(o).r.a
 o===$&&A.a()
 return new A.G8(new A.Au(new A.aIf(),s,s,s,new A.aIg(),t.Z_),s,s,new A.xV(p,"Airtel",r,q,B.afc,o,n,m.d,!1,s),s,t.U4)}}
 A.aIf.prototype={
-$1(a){var s,r,q=null,p=new A.aej(A.b([],t.W)),o=A.bhu("https","eppg.ngazi.co.tz","egsaving-gateway/app-internal",q),n=A.b([A.b20(q)],t.Bm),m=new A.aeJ(),l=t.N,k=A.ay(["Cache-control","no-cache"],l,l)
+$1(a){var s,r,q=null,p=new A.aej(A.b([],t.W)),o=A.bhu("https","uat.tcbbank.co.tz:8443","Savings/airtel/application/app-internal",q),n=A.b([A.b20(q)],t.Bm),m=new A.aeJ(),l=t.N,k=A.ay(["Cache-control","no-cache"],l,l)
 l=A.ay(["Accept","*/*"],l,l)
 s=$.aXr()
 l=A.b([new A.Q7(),new A.En(k),new A.En(l),new A.TT(s,!0,!0)],t.lC)
