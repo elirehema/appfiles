@@ -33447,7 +33447,7 @@ $S:2}
 A.aQk.prototype={
 $1(a){var s=A.eA().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/d3d45dcf251823c1769909cd43698d126db38deb/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/d2913632a4578ee4d0b8b1c4a69888c8a0672c4b/":s)+a},
 $S:31}
 A.af3.prototype={
 fh(a,b){var s,r=this.a
@@ -49874,7 +49874,7 @@ $S:15}
 A.aLQ.prototype={
 $2(a,b){var s=null,r=A.m(A.y("button.member_fee",s),s,s,s,s,s,s,s),q=this.a,p=q.d
 r=A.bq(s,!0,s,s,s,s,r,new A.CJ(p,new A.aLD(q,b),B.jX,s))
-return A.b6(A.b([r,A.aF(s,p?A.dL(!1,q.z,A.dw(s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"10.0",s,s,s,s,s,s,s,s,A.y("input.membership_fee",s),!0,!0,s,s,s,s,s,s,s,s,s,s,s,s,"USD",s),s,A.b([$.aSK()],t.VS),new A.kd(2,!1,!1),s,1,!1,s,new A.aLE(q,a),!1,s,B.N,B.ov,new A.aLF()):new A.jn(0,0,s,s),B.l,s,s,s,s,s,s,s,s,s,s)],t.p),B.I,B.u,B.K)},
+return A.b6(A.b([r,A.aF(s,p?A.dL(!1,q.z,A.dw(s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"10.0",s,s,s,s,s,s,s,s,A.y("input.membership_fee",s),!0,!0,s,s,s,s,s,s,s,s,s,s,s,s,"TZS",s),s,A.b([$.aSK()],t.VS),new A.kd(2,!1,!1),s,1,!1,s,new A.aLE(q,a),!1,s,B.N,B.ov,new A.aLF()):new A.jn(0,0,s,s),B.l,s,s,s,s,s,s,s,s,s,s)],t.p),B.I,B.u,B.K)},
 $S:317}
 A.aLD.prototype={
 $1(a){this.b.$1(new A.aLC(this.a,a))},
